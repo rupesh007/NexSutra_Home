@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">NexSutra Global Orb</title>
+  <desc id="desc">A luminous global sphere formed by connected network nodes and orbital arcs.</desc>
+  <defs>
+    <linearGradient id="sphere" x1="71" y1="72" x2="327" y2="335" gradientUnits="userSpaceOnUse"><stop stop-color="#67E8F9"/><stop offset=".46" stop-color="#3B82F6"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient>
+    <linearGradient id="arc" x1="32" y1="150" x2="368" y2="247" gradientUnits="userSpaceOnUse"><stop stop-color="#4DE2F5" stop-opacity=".12"/><stop offset=".48" stop-color="#83B8FF"/><stop offset="1" stop-color="#B38BFF" stop-opacity=".2"/></linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(0 178 -178 0 200 197)" gradientUnits="userSpaceOnUse"><stop stop-color="#38BDF8" stop-opacity=".26"/><stop offset="1" stop-color="#111C44" stop-opacity="0"/></radialGradient>
+    <filter id="blur" x="47" y="45" width="306" height="310" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="18"/></filter>
+    <clipPath id="globe"><circle cx="200" cy="200" r="119"/></clipPath>
+  </defs>
+  <circle cx="200" cy="200" r="174" fill="url(#glow)"/>
+  <circle cx="200" cy="200" r="129" fill="#1B3E79" fill-opacity=".22" filter="url(#blur)"/>
+  <g opacity=".9">
+    <circle cx="200" cy="200" r="119" fill="#0D1D3A" stroke="url(#sphere)" stroke-width="2.2"/>
+    <g clip-path="url(#globe)" stroke="url(#sphere)" stroke-opacity=".45">
+      <ellipse cx="200" cy="200" rx="119" ry="44"/>
+      <ellipse cx="200" cy="200" rx="119" ry="82"/>
+      <ellipse cx="200" cy="200" rx="48" ry="119"/>
+      <ellipse cx="200" cy="200" rx="88" ry="119"/>
+      <path d="M76 160h248M76 240h248" opacity=".48"/>
+      <path d="m105 129 42 13 17 28 28 8 19 24-12 29 26 23 8 42 36 16M278 105l-18 36-31 8-15 22-28 12-14 31-32 12-14 29-24 17" opacity=".66"/>
+    </g>
+    <circle cx="200" cy="200" r="119" stroke="url(#sphere)" stroke-opacity=".65" stroke-width="2.2"/>
+  </g>
+  <g fill="#B7F5FF" stroke="#14396B" stroke-width="2">
+    <circle cx="147" cy="142" r="6"/><circle cx="229" cy="151" r="6"/><circle cx="164" cy="200" r="7"/>
+    <circle cx="231" cy="208" r="6"/><circle cx="137" cy="246" r="5"/><circle cx="260" cy="252" r="7"/>
+    <circle cx="200" cy="119" r="5"/><circle cx="199" cy="282" r="5"/><circle cx="283" cy="181" r="4.5"/>
+  </g>
+  <g stroke="url(#sphere)" stroke-width="1.5" opacity=".9">
+    <path d="m147 142 53-23 29 32 3 57 29 44-61 30-63-36 27-46-17-58Z"/>
+    <path d="m147 142 84 9-67 49 67 8-94 38m94-95 52 30-52 65m-60-52 35 82" opacity=".74"/>
+  </g>
+  <g fill="#6DEBFA">
+    <circle cx="200" cy="119" r="2.2"/><circle cx="147" cy="142" r="2.2"/><circle cx="229" cy="151" r="2.2"/>
+    <circle cx="164" cy="200" r="2.5"/><circle cx="231" cy="208" r="2.2"/><circle cx="137" cy="246" r="2"/>
+    <circle cx="260" cy="252" r="2.5"/><circle cx="199" cy="282" r="2"/><circle cx="283" cy="181" r="2"/>
+  </g>
+  <g stroke="url(#arc)" stroke-width="1.5">
+    <ellipse cx="200" cy="200" rx="177" ry="65" transform="rotate(-19 200 200)"/>
+    <ellipse cx="200" cy="200" rx="154" ry="102" transform="rotate(35 200 200)" opacity=".55"/>
+  </g>
+  <g fill="#8EF4FF">
+    <circle cx="33" cy="145" r="4"/><circle cx="355" cy="253" r="4"/><circle cx="104" cy="337" r="3"/><circle cx="308" cy="62" r="3"/>
+  </g>
+</svg>
