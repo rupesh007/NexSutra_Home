@@ -1,6 +1,6 @@
 # NexSutra corporate website
 
-A standalone, responsive company website built with HTML, CSS, vanilla JavaScript, and a locally stored SVG logo. It does not call the ISP middleware, camera platform, or any backend service.
+A standalone, responsive company website built with HTML, CSS, vanilla JavaScript, and the supplied local NexSutra PNG logo. It does not call the ISP middleware, camera platform, or any backend service.
 
 ## Run locally
 
@@ -17,7 +17,8 @@ Open [http://localhost:8088](http://localhost:8088).
 - `index.html` — page content and semantic structure
 - `styles.css` — responsive visual system and reduced-motion behavior
 - `script.js` — mobile navigation, deployment selector, and lightweight reveal effects
-- `assets/nexsutra-global-orb.svg` — original SVG interpretation of the Global Orb concept, created for this site because no existing logo asset was found in the project
+- `assets/nexsutra_logo.png` — supplied NexSutra logo used across the site
+- `assets/nexsutra-global-orb.svg` — earlier site-created Global Orb interpretation, retained but no longer used
 
 The page uses system sans-serif fonts and has no external runtime dependencies. No build step is required.
 
